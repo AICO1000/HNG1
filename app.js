@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use("/", (req, res)=>{
+app.use("/grade", (req, res)=>{
     res.json( { "slackUsername": "AICO", "backend": true, "age": 10, "bio": "hard working" })
 })
 
